@@ -1,6 +1,6 @@
 ![]
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SHER321/SaitamalRobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SHER321/SaitamaRobot)
 
 
 # Saitama Robot 
