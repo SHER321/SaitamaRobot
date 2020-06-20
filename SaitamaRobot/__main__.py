@@ -19,17 +19,19 @@ from SaitamaRobot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am an Anime themed group management bot.
-To add me to your group click ["HERE"](t.me/SaitamaRobot?startgroup=botstart)
-You can find my list of available commands with /help.
 
-[Saitama's Repo](github.com/AnimeKaizoku/SaitamaRobot) 
-See [Basic Configuration Checklist](t.me/OnePunchUpdates/29) on how to secure your group.
+You can find my list of available commands with /help.
+Create By Legend :👉 [😎 N I K H I L 😎]
+[ANOTHER BOT](t.me/SIMBHA_NGY_BOT) 
+Join Our Channel [NGY BOT'S](t.me/NGY_BOTS) on how to secure your group.
 The support group chat is at {}.
+You Can Me Add To Your Group ["CLICK HERE"](t.me/KING_NGY_BOT?startgroup=botstart)
+More Information Click /help.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a Hero For Fun and help admins manage their groups with @MOVIERG_NY! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -47,9 +49,9 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+KING BOT is hosted on one of [N I K H I L](t.me/NGYNY) Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of supporting him; [Channel](t.me/NGY_BOTS)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -370,7 +372,7 @@ def donate(bot: Bot, update: Update):
     if chat.type == "private":
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1171791499 and DONATION_LINK:
             update.effective_message.reply_text("You can also donate to the person currently running me "
                                                 "[here]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
